@@ -1,0 +1,37 @@
+{
+  "name": "team-workspace-backend",
+  "version": "1.0.0",
+  "description": "Backend for Real-Time Team Workspace",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.7.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5",
+    "redis": "^4.6.8",
+    "bull": "^4.11.3",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^6.10.0",
+    "express-validator": "^7.0.1",
+    "csurf": "^1.11.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "websocket", "slack"],
+  "author": "K. Sai Vyshnavi",
+  "license": "ISC"
+}
